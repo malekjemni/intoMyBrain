@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda50a08b4b75c54b9e7ca5d5b3a6030, type: 3}
+  m_Name: DefaultLoadingScreen
+  m_EditorClassIdentifier: 
+  loadingScreens:
+  - splashart: {fileID: 21300000, guid: 956ff4cae4d09b74bba9e1b10d545b4a, type: 3}
+    title: The Enigmatic Mind of Mokh'tar
+    tip: Within the convoluted corridors of Mokh'tar's mind, mysterious hormones
+      dictate the rhythm of humor.
+  - splashart: {fileID: 21300000, guid: 956ff4cae4d09b74bba9e1b10d545b4a, type: 3}
+    title: Towers of Humorous Harmony
+    tip: 'Mokh''tar, the whimsical brain, hungers for laughter, and the towers you
+      build are the conductors of this symphony. '
+  - splashart: {fileID: 21300000, guid: 956ff4cae4d09b74bba9e1b10d545b4a, type: 3}
+    title: Unraveling the Portal of Mirth
+    tip: Did you know that the brain is the only thing in the existance of the universe
+      that named it self.

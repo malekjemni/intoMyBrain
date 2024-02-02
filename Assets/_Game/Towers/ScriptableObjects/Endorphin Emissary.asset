@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fff6d362259cbb4b8750b52cfb4863a, type: 3}
+  m_Name: Endorphin Emissary
+  m_EditorClassIdentifier: 
+  iconSpr: {fileID: 21300000, guid: 0bf3d8f5ea2ba264a978b30204bbaba1, type: 3}
+  towerName: Endorphin Emissary
+  towerDescription: Endorphin Emissary is a friedly unit that heals you're minions
+  towerLoreDescription: 
+  towerCost: 150
+  towerPrefab: {fileID: 4391050392790055348, guid: bdb7ae537e28ada458c2ef9d70c7ef94,
+    type: 3}
+  towerLevels:
+  - overrideName: 
+    sellCost: 50
+    towerIcon: {fileID: 0}
+    towerPrefab: {fileID: 0}
+    upgradeOptions:
+    - name: Tranquill
+      iconSpr: {fileID: 21300000, guid: bb16bfc3c31a98b4cb770b6eae3820c4, type: 3}
+      cost: 75
+      overrideObject: {fileID: 0}
+      description: 'Increases Healing speed
+
+
+        Healing cooldown reduction:
+        0.25s'
+      loreDescription: 
+    - name: Heartbeat
+      iconSpr: {fileID: 21300000, guid: 39779f5be6c44cf4a9ed257ee9bd0476, type: 3}
+      cost: 100
+      overrideObject: {fileID: 0}
+      description: Increases damage by 1
+      loreDescription: 
+  - overrideName: 
+    sellCost: 100
+    towerIcon: {fileID: 0}
+    towerPrefab: {fileID: 0}
+    upgradeOptions:
+    - name: 'Social Harmony '
+      iconSpr: {fileID: 21300000, guid: 73537d0adb999574587af40c21d9ec70, type: 3}
+      cost: 200
+      overrideObject: {fileID: 0}
+      description: Adds a new passive ability that has a chance to deal critical
+        Healing
+      loreDescription: 
+    - name: Stable Grip
+      iconSpr: {fileID: 21300000, guid: ee4f10f6afe450e48a88605a45e8297e, type: 3}
+      cost: 225
+      overrideObject: {fileID: 0}
+      description: Increases range by 2
+      loreDescription: 
+  - overrideName: 
+    sellCost: 200
+    towerIcon: {fileID: 0}
+    towerPrefab: {fileID: 0}
+    upgradeOptions:
+    - name: Double Tap
+      iconSpr: {fileID: 21300000, guid: 4e75b60d5a71f72468b08b36a6c367b6, type: 3}
+      cost: 350
+      overrideObject: {fileID: 0}
+      description: Adds a new passive ability that has a chance to shoot 2 projectiles
+        in quick succession
+      loreDescription: 
+    - name: Rapid Reloading
+      iconSpr: {fileID: 21300000, guid: e2a8ea1bb05ce9844aec972b503d170b, type: 3}
+      cost: 400
+      overrideObject: {fileID: 0}
+      description: 'Further increases Healing speed
+
+
+        Healing cooldown reduction:
+        0.25s'
+      loreDescription: 
+  - overrideName: 
+    sellCost: 300
+    towerIcon: {fileID: 0}
+    towerPrefab: {fileID: 0}
+    upgradeOptions:
+    - name: Chakra
+      iconSpr: {fileID: 21300000, guid: 58df727dbdcfe9e4cbde74d4246246a6, type: 3}
+      cost: 500
+      overrideObject: {fileID: 0}
+      description: 'Increases piercing power
+
+
+        Additional hits after initial
+        contact: 2'
+      loreDescription: 
+    - name: Pin Point Accuracy Projectiles
+      iconSpr: {fileID: 21300000, guid: be95047ae22e0fb4dba85fec49be3503, type: 3}
+      cost: 550
+      overrideObject: {fileID: 0}
+      description: Turns the tower into a hitscan tower, removing projectiles and
+        dealing damage to the unit directly.
+      loreDescription: 
